@@ -4,20 +4,20 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-class Account {
+class Accountt {
     private final String owner;
     private final long balance;
     private final boolean locked;
 
-    Account(String owner, long balance, boolean locked) {
+    Accountt(String owner, long balance, boolean locked) {
         this.owner = owner;
         this.balance = balance;
         this.locked = locked;
     }
 
-    public static Comparator<Account> getComparatorByLockedBalanceAndOwner() {
+    public static Comparator<Accountt> getComparatorByLockedBalanceAndOwner() {
         // write your code here
-        return Comparator.comparing(Account::isLocked).thenComparing(Account::getBalance, Comparator.reverseOrder()).thenComparing(Account::getOwner);
+        return Comparator.comparing(Accountt::isLocked).thenComparing(Accountt::getBalance, Comparator.reverseOrder()).thenComparing(Accountt::getOwner);
     }
 
     public String getOwner() {
@@ -38,15 +38,15 @@ class Account {
     }
 
     public static void main(String[] args) {
-        List<Account> accounts = new ArrayList<>();
+        List<Accountt> accounts = new ArrayList<>();
 
-        accounts.add(new Account("Peter", 1000L, false));
-        accounts.add(new Account("John", 1000L, false));
-        accounts.add(new Account("Ivan", 8000L, true));
-        accounts.add(new Account("Helen", 5000L, false));
-        accounts.add(new Account("Nicole", 3000L, true));
+        accounts.add(new Accountt("Peter", 1000L, false));
+        accounts.add(new Accountt("John", 1000L, false));
+        accounts.add(new Accountt("Ivan", 8000L, true));
+        accounts.add(new Accountt("Helen", 5000L, false));
+        accounts.add(new Accountt("Nicole", 3000L, true));
 
-        accounts.sort(Account.getComparatorByLockedBalanceAndOwner());
+        accounts.sort(Accountt.getComparatorByLockedBalanceAndOwner());
 
         accounts.forEach(System.out::println);
     }
