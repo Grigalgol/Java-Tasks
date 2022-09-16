@@ -35,7 +35,59 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Java Tasks/Java Tasks&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ProcessDeliveryOrders">
+  <component name="RunManager" selected="Application.Countries">
+    <configuration name="Competition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stepik.java_functional_programming.Competition" />
+      <module name="Java Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepik.java_functional_programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Countries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stepik.java_functional_programming.Countries" />
+      <module name="Java Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepik.java_functional_programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuckingTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stepik.java_functional_programming.FuckingTask" />
+      <module name="Java Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepik.java_functional_programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stepik.Main" />
+      <module name="Java Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProcessDeliveryOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stepik.java_functional_programming.ProcessDeliveryOrders" />
       <module name="Java Tasks" />
@@ -49,23 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stepik.java_functional_programming.User" />
-      <module name="Java Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stepik.java_functional_programming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Countries" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Competition" />
+        <item itemvalue="Application.FuckingTask" />
         <item itemvalue="Application.ProcessDeliveryOrders" />
-        <item itemvalue="Application.User" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +120,10 @@
       <option name="presentableId" value="Default" />
       <updated>1662898780206</updated>
       <workItem from="1662898783025" duration="3891000" />
-      <workItem from="1663077863713" duration="1450000" />
+      <workItem from="1663077863713" duration="4391000" />
+      <workItem from="1663095446978" duration="1134000" />
+      <workItem from="1663271017041" duration="609000" />
+      <workItem from="1663315449852" duration="5992000" />
     </task>
     <servers />
   </component>
